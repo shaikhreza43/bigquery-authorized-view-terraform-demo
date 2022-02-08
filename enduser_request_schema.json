@@ -1,0 +1,85 @@
+[
+    {
+      "description": "RequestId",
+      "name": "request_id",
+      "type": "string",
+      "mode": "required"
+    },
+    {
+      "description": "UserId",
+      "name": "user_id",
+      "type": "string",
+      "mode": "required"
+    },
+    {
+      "description": "Source",
+      "name": "source",
+      "type": "string",
+      "mode": "required"
+    },
+    {
+      "description": "Action",
+      "name": "action",
+      "type": "string",
+      "mode": "required"
+    },
+    {
+      "description": "RequestPayload",
+      "name": "request_payload",
+      "type": "string",
+      "mode": "NULLABLE"
+    },
+    {
+      "description": "RequestStatus",
+      "name": "request_status",
+      "type": "string",
+      "mode": "NULLABLE"
+    },
+    {
+      "description": "RequestState",
+      "name": "request_state",
+      "type": "string",
+      "mode": "NULLABLE"
+    },
+    {
+      "description": "ErrorCode",
+      "name": "error_code",
+      "type": "string",
+      "mode": "NULLABLE"
+    },{
+      "description": "ErrorMessage",
+      "name": "error_message",
+      "type": "string",
+      "mode": "NULLABLE"
+    },
+    {
+      "description": "RequestApprovedTimestamp",
+      "name": "request_approved_timestamp",
+      "type": "TIMESTAMP",
+      "mode": "NULLABLE"
+    },
+    {
+      "description": "RequestReceivedTimestamp",
+      "name": "request_received_timestamp",
+      "type": "TIMESTAMP",
+      "mode": "NULLABLE"
+    },
+    {
+      "description": "ActiveState",
+      "name": "active_state",
+      "type": "BOOLEAN",
+      "mode": "NULLABLE"
+    },
+    {
+      "description": "CreateTimestamp",
+      "name": "create_timestamp",
+      "type": "TIMESTAMP",
+      "mode": "NULLABLE"
+    },
+    {
+      "description": "LastupdateTimestamp",
+      "name": "lastupdate_timestamp",
+      "type": "TIMESTAMP",
+      "mode": "NULLABLE"
+    }
+  ]

@@ -1,0 +1,56 @@
+[
+    {
+      "description": "RequestId",
+      "name": "request_id",
+      "type": "string",
+      "mode": "required"
+    },
+    {
+      "description": "UserId",
+      "name": "user_id",
+      "type": "string",
+      "mode": "required"
+    },
+    {
+      "description": "Source",
+      "name": "source",
+      "type": "string",
+      "mode": "required"
+    },
+    {
+      "description": "parentView",
+      "name": "parent_view",
+      "type": "string",
+      "mode": "NULLABLE"
+    },
+    {
+      "description": "userAuthorizedView",
+      "name": "user_authorized_view",
+      "type": "string",
+      "mode": "NULLABLE"
+    },
+    {
+      "description": "Status",
+      "name": "status",
+      "type": "string",
+      "mode": "NULLABLE"
+    },
+    {
+      "description": "CreateTimestamp",
+      "name": "create_timestamp",
+      "type": "TIMESTAMP",
+      "mode": "NULLABLE"
+    },
+    {
+      "description": "LastupdateTimestamp",
+      "name": "lastupdate_timestamp",
+      "type": "TIMESTAMP",
+      "mode": "NULLABLE"
+    },
+    {
+      "description": "ErrorMessage",
+      "name": "error_message",
+      "type": "string",
+      "mode": "NULLABLE"
+    }
+  ]
