@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."}]}
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"bq_module","Source":"git::ssh://git@github.ford.com/gcp/tfm-bigquery.git","Dir":".terraform/modules/bq_module"}]}
